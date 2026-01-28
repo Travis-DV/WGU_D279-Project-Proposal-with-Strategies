@@ -1,5 +1,3 @@
-@import "tailwindcss-windows-x64.exe";
-
 #q1 {
     background-color: red;
 }
@@ -12,3 +10,16 @@
 #q4 {
     background-color: white;
 }
+
+.absolute-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*.overlay-text {*/
+/*    display: none;*/
+/*}*/
+/*.hover-container:hover .overlay-text {*/
+/*    display: block;*/
+/*}*/

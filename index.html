@@ -2,23 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+
+    <!--import bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <div id="Quad">
-        <div id="q1">
-            <p>Something1</p>
-        </div>
-        <div id="q2">
-            <p>Something2</p>
-        </div>
-        <div id="q3">
-            <p>Something3</p>
-        </div>
-        <div id="q4">
-            <p>Something4</p>
+    <div id="Quad" class="container text-center">
+        <div class="row h-auto">
+            <div id="q1" class="col-sm hover-container position-relative p-0 h-auto">
+                <img src="images/JcBlue.png" alt="bluebox" class="absolute-center position-absolute w-100 h-100 m-0 p-0">
+                <p class="overlay-text position-absolute text-white w-100 h-auto m-0 p-0">Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones.”</p>
+            </div>
+            <div id="q2" class="col-sm">
+                <p>Something2</p>
+            </div>
+            <div id="q3" class="col-sm">
+                <p>Something3</p>
+            </div>
+            <div id="q4" class="col-sm">
+                <p>Something4</p>
+            </div>
         </div>
     </div>
+
+<!--import bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
