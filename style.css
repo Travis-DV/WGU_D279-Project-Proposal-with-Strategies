@@ -18,7 +18,8 @@
 }
 
 .underlay-text {
-    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
     padding: 2%;
 
     display: -webkit-box;
@@ -28,13 +29,15 @@
     text-overflow: ellipsis;
 }
 .hover-container:hover .underlay-text {
-    visibility: visible;
+    opacity: 1;
 }
 
+
 .overlay-text {
-    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease;
     padding: 2%;
 }
 .hover-container:hover .overlay-text {
-    visibility: hidden;
+    opacity: 0;
 }
