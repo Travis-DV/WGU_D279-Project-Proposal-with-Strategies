@@ -42,4 +42,10 @@
     opacity: 0;
 }
 
+.nav-link {
+    color: #676767
+}
+.nav-link:hover {
+    background-color: #BDBDBD;
+}
 
