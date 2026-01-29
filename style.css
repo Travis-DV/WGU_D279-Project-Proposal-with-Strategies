@@ -30,3 +30,11 @@
 .hover-container:hover .underlay-text {
     visibility: visible;
 }
+
+.overlay-text {
+    visibility: visible;
+    padding: 2%;
+}
+.hover-container:hover .overlay-text {
+    visibility: hidden;
+}
