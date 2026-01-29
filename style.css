@@ -1,6 +1,6 @@
-#q1 {
-    background-color: red;
-}
+/*#q1 {*/
+/*    background-color: red;*/
+/*}*/
 #q2 {
     background-color: green;
 }
@@ -17,9 +17,16 @@
     transform: translate(-50%, -50%);
 }
 
-/*.overlay-text {*/
-/*    display: none;*/
-/*}*/
-/*.hover-container:hover .overlay-text {*/
-/*    display: block;*/
-/*}*/
+.overlay-text {
+    visibility: hidden;
+    padding: 2%;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.hover-container:hover .overlay-text {
+    visibility: visible;
+}
