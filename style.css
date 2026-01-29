@@ -50,7 +50,20 @@
 }
 
 .navbar > .navbar-brand, .navbar > button {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     height: 100%;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 1.1em 0.7em;
+    transition: all 0.5s;
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+    text-decoration: underline;
 }
