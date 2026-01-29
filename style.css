@@ -46,6 +46,11 @@
     color: #676767
 }
 .nav-link:hover {
-    background-color: #BDBDBD;
+    background-color: #6699CC;
 }
 
+.navbar > .navbar-brand, .navbar > button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 100%;
+}
