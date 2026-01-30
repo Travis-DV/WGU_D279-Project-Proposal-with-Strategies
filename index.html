@@ -125,33 +125,33 @@
 
 
     <div id="ContactUsForm" style="border: 0.25em solid darkgrey; padding-top: 1rem;">
-        <form class="container">
+        <form class="container" action="contactUsPage.html" method="get">
             <h3 class="row fw-bold">Contact one of our "Pexperts"!</h3>
             <div id="NameFormDiv" class="row p-3 bottomBorder">
                 <h4 class="form-label row">Name:</h4>
                 <div class="col-sm">
-                    <input type="text" class="form-control row m-0" id="inputFirstName" aria-describedby="labelFirstName" placeholder="First Name:">
+                    <input name="firstName" type="text" class="form-control row m-0" id="inputFirstName" aria-describedby="labelFirstName" placeholder="First Name:">
                     <label id="labelFirstName" for="inputFirstName" class="row form-text visually-hidden">Enter your First Name</label>
                 </div>
                 <div class="col-sm">
-                    <input type="text" class="form-control row m-0" id="inputLastName" aria-describedby="labelLastName" placeholder="Last Name:">
+                    <input name="lastName" type="text" class="form-control row m-0" id="inputLastName" aria-describedby="labelLastName" placeholder="Last Name:">
                     <label id="labelLastName" for="inputLastName" class="row form-text visually-hidden">Enter your Last Name</label>
                 </div>
             </div>
             <div class="row p-3 bottomBorder">
                 <h4 class="form-label row">Email address:</h4>
-                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="example@example.com">
+                <input name="email" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="example@example.com">
                 <label id="emailHelp" for="inputEmail" class="form-label row visually-hidden">Enter your Email Address</label>
             </div>
             <div class="row p-3 bottomBorder">
                 <div class="col-sm" style="border-right: 0.125em dashed lightgrey">
                     <h4 class="form-label row ps-2">Phone Number:</h4>
-                    <input type="tel" class="form-control m-0" id="inputPhone" aria-describedby="phoneHelp" placeholder="+# (###) ###-####">
+                    <input name="phone" type="tel" class="form-control m-0" id="inputPhone" aria-describedby="phoneHelp" placeholder="+# (###) ###-####">
                     <label id="phoneHelp" for="inputPhone" class="form-label row visually-hidden">Enter your Phone Number</label>
                 </div>
                 <div class="col-sm" style="border-right: 0.125em dashed lightgrey">
                     <h4 class="form-label row ps-2">Timezone:</h4>
-                    <select name="timezone_offset" id="timezone-offset" aria-describedby="timezoneHelp" class="form-select m-0">
+                    <select name="timezone" id="timezone-offset" aria-describedby="timezoneHelp" class="form-select m-0">
                         <option value="-12:00">(GMT -12:00) Eniwetok, Kwajalein</option>
                         <option value="-11:00">(GMT -11:00) Midway Island, Samoa</option>
                         <option value="-10:00">(GMT -10:00) Hawaii</option>
