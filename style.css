@@ -68,3 +68,8 @@
 .breadcrumb-link:hover {
     text-decoration: underline;
 }
+
+
+div > form > div {
+    border-bottom: 0.25em dashed lightgrey
+}
