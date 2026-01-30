@@ -20,7 +20,7 @@
 .underlay-text {
     opacity: 0;
     transition: opacity 0.5s ease;
-    padding: 2%;
+    padding: 1%;
 
     display: -webkit-box;
     -webkit-box-orient: vertical;
