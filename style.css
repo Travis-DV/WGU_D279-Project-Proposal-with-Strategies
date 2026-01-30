@@ -74,10 +74,10 @@ div > form > .bottomBorder {
     border-bottom: 0.25em dashed lightgrey
 }
 
-footer > div > a {
+footer > div > ul > li > a {
     color: white;
 }
-footer > div > a:hover {
+footer > div > ul > li > a:hover {
     color: #BDBDBD;
     transition: color 0.25s ease-in-out;
 }
