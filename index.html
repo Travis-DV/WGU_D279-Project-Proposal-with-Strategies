@@ -121,34 +121,34 @@
     </div>
 
 
-    <div id="ContactUsForm" style="border: 0.25em solid darkgrey">
+    <div id="ContactUsForm" style="border: 0.25em solid darkgrey; padding-top: 1rem;">
         <form class="container">
-            <h3 class="row">Contact one of our "Pexperts"!</h3>
-            <div id="NameFormDiv" class="row p-3">
+            <h3 class="row fw-bold">Contact one of our "Pexperts"!</h3>
+            <div id="NameFormDiv" class="row p-3 bottomBorder">
                 <h4 class="form-label row">Name:</h4>
                 <div class="col-sm">
-                    <input type="text" class="form-control row" id="inputFirstName" aria-describedby="labelFirstName" placeholder="First Name:">
+                    <input type="text" class="form-control row m-0" id="inputFirstName" aria-describedby="labelFirstName" placeholder="First Name:">
                     <label id="labelFirstName" for="inputFirstName" class="row form-text visually-hidden">Enter your First Name</label>
                 </div>
                 <div class="col-sm">
-                    <input type="text" class="form-control row" id="inputLastName" aria-describedby="labelLastName" placeholder="Last Name:">
+                    <input type="text" class="form-control row m-0" id="inputLastName" aria-describedby="labelLastName" placeholder="Last Name:">
                     <label id="labelLastName" for="inputLastName" class="row form-text visually-hidden">Enter your Last Name</label>
                 </div>
             </div>
-            <div class="row p-3">
+            <div class="row p-3 bottomBorder">
                 <h4 class="form-label row">Email address:</h4>
-                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="example@example.com">
                 <label id="emailHelp" for="inputEmail" class="form-label row visually-hidden">Enter your Email Address</label>
             </div>
-            <div class="row p-3">
-                <div class="col-sm">
-                    <h4 class="form-label row">Phone Number:</h4>
-                    <input type="tel" class="form-control" id="inputPhone" aria-describedby="phoneHelp">
+            <div class="row p-3 bottomBorder">
+                <div class="col-sm" style="border-right: 0.125em dashed lightgrey">
+                    <h4 class="form-label row ps-2">Phone Number:</h4>
+                    <input type="tel" class="form-control m-0" id="inputPhone" aria-describedby="phoneHelp" placeholder="+# (###) ###-####">
                     <label id="phoneHelp" for="inputPhone" class="form-label row visually-hidden">Enter your Phone Number</label>
                 </div>
-                <div class="col-sm">
-                    <h4 class="form-label row">Timezone:</h4>
-                    <select name="timezone_offset" id="timezone-offset" aria-describedby="timezoneHelp" class="form-select">
+                <div class="col-sm" style="border-right: 0.125em dashed lightgrey">
+                    <h4 class="form-label row ps-2">Timezone:</h4>
+                    <select name="timezone_offset" id="timezone-offset" aria-describedby="timezoneHelp" class="form-select m-0">
                         <option value="-12:00">(GMT -12:00) Eniwetok, Kwajalein</option>
                         <option value="-11:00">(GMT -11:00) Midway Island, Samoa</option>
                         <option value="-10:00">(GMT -10:00) Hawaii</option>
@@ -193,12 +193,16 @@
                     <label for="timezone-offset" id="timezoneHelp" class="form-label row visually-hidden">Select your Timezone</label>
                 </div>
             </div>
-            <div class="form-text row pb-3">We'll never share your personal information with anyone else!</div>
+            <div class="row p-3">
+                <div class="form-text col-4">We will never share your personal information with anyone else!</div>
+                <button type="submit" class="btn btn-primary col">Submit</button>
+                <div class="col-4"></div>
+            </div>
         </form>
     </div>
 
 
-    <div id="Quad" class="container text-center">
+    <div id="Quad" class="container text-center pt-3">
         <div class="row h-auto pt-1">
             <div id="catCard" class="col-sm hover-container position-relative h-auto">
                 <div class="col-sm card bg-dark text-white">

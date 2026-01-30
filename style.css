@@ -70,6 +70,6 @@
 }
 
 
-div > form > div {
+div > form > .bottomBorder {
     border-bottom: 0.25em dashed lightgrey
 }
