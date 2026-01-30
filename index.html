@@ -1,5 +1,13 @@
 <!--TODO add jump to top-->
-<!--TODO look into fontawesome icons, called the same way bootstrap 5 is-->
+
+<!--Primary colors:-->
+<!--Midnight Blue - #003B6D-->
+<!--Blue Sky- #6699CC-->
+
+<!--Secondary colors:-->
+<!--Dim gray - #676767-->
+<!--Silver- #BDBDBD-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -204,8 +212,9 @@
         </form>
     </div>
 
-    <div id="Quad" class="container text-center px-0 pt-3 pb-3 w-100 m-0 mw-100" style="background-image: linear-gradient(to bottom, #003B6D, #060e57, #060e57, #060e57, #003B6D)">
-        <div class="row h-auto pt-1 justify-content-center">
+    <div id="Quad" class="container text-center px-0 pt-3 pb-3 m-0 mw-100 w-100"
+         style="background-image: linear-gradient(to bottom, #003B6D, #060e57, #060e57, #060e57, #003B6D);">
+        <div class="row h-auto pt-1 m-0 justify-content-center">
             <div id="catCard" class="col-md-4 hover-container position-relative h-auto">
                 <div class="col-sm card bg-dark text-white">
                     <img src="images/cat1.jpg" alt="Serene Ginger Cat Sleeping by a Window"
@@ -239,7 +248,7 @@
                 </div>
             </div>
         </div>
-        <div class="row h-auto pt-4 justify-content-center">
+        <div class="row h-auto pt-4 m-0 justify-content-center">
             <div id="birdCard" class="col-md-4 hover-container position-relative h-auto">
                 <div class="col-sm card bg-dark text-white">
                     <img src="images/bird1.jpg" alt="A White bird laying on its back in a human's hand."
@@ -274,6 +283,21 @@
             </div>
         </div>
     </div>
+
+    <footer class="container w-100 mw-100 pt-4 pb-3"
+            style="background-color: #003B6D">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <a href="catPage.html" class="col-sm-1">Cats</a>
+            <a href="dogPage.html" class="col-sm-1">Dogs</a>
+            <form action="contactUsPage.html" class="col-sm-2">
+                <button type="submit" class="btn btn-outline-light">Contact Us!</button>
+            </form>
+            <a href="birdPage.html" class="col-sm-1">Birds</a>
+            <a href="FAQPage.html" class="col-sm-3">Frequently Asked Questions</a>
+        </div>
+
+    </footer>
 
 <!--import bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
