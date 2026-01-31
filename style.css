@@ -95,4 +95,9 @@ div > form > .bottomBorder {
         margin: 0;
         padding: 0;
     }
+    .birdHaloImgDiv {
+        max-height: 75vh;
+        margin: 0;
+        padding: 0;
+    }
 }
