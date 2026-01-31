@@ -2,6 +2,8 @@ Cat1: Photo by ShihY H from Pexels: https://www.pexels.com/photo/serene-ginger-c
 Cat2: From the word doc
 Cat3: From the word doc
 Dog1: Photo by Genadi Yakovlev from Pexels: https://www.pexels.com/photo/a-white-and-black-short-coated-dog-running-with-a-toy-on-green-grass-7179466/
+Dog2: From the word doc
+Dog3: From the word doc
 Bird1: Its my bird no source needed.
 Snake1: The old website: https://access.wgu.edu/ASP3/aap/content/home.html
 Search1: https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid
