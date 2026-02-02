@@ -63,36 +63,110 @@
   </header>
 
   <main>
+    <div class="accordion mb-2 mt-2">
+      <h4 class="pb-1 pt-1">
+        Our “Pexperts” typically encounter the following questions when consulting with prospective “pet parents:”
+      </h4>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+            Question: What is the best way to rid my dog or cat of fleas?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <p>
+              Sometimes our furry friends pick up hitchhikers that make them very itchy and uncomfortable.
+              If gone unchecked, fleas can infest your home, making it even more difficult to rid them from your loved one’s coat.
+              To eliminate fleas, choose a shampoo specially formulated to kill fleas and be sure to read and follow all instructions on the label.
+              Repeat treatment as necessary until your pet is free of fleas; if you see skin irritation, stop use immediately and contact your local vet.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Question: How long can I expect my pet bird to live?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            The answer can vary widely depending on the type of bird, the size, the environment, and of course, mother nature.
+            Assuming all is well in the external factors that are out of the owner's control, cockatiels and budgies live up to 20 years old on average.
+            However, many parrot variations are known to live nearly an astounding 100 years!
+            As with many living organisms, longevity can be increased by keeping annual veterinarian visits, maintaining a healthy diet, and keeping your feathery friend's environment sanitary.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Question: How often should I feed my pet snake?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            Most snakes eat one to two times per week, depending on their age, size, and activity level.
+            Female snakes often increase their food intake as breeding season gets underway.
+            Some snakes can go as long as two weeks before needing their next meal; this is normal.
+            However, if your snake has not eaten in two or three weeks and seems lethargic, reach out to your local vet to determine if your snake might be ill or injured.
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div id="ContactUsForm" style="border: 0.25em solid darkgrey; padding-top: 1rem;">
-      <form class="container" action="contactUsPage.html" method="get">
+      <form class="container">
         <h3 class="row fw-bold">Contact one of our "Pexperts"!</h3>
         <div id="NameFormDiv" class="row p-3 bottomBorder">
           <h4 class="form-label row ps-4">Name:</h4>
           <div class="col-sm">
-            <input name="firstName" type="text" class="form-control row m-0" id="inputFirstName" aria-describedby="labelFirstName" placeholder="First Name:">
+            <input name="firstName" type="text" class="form-control row m-0" id="inputFirstName" aria-describedby="labelFirstName" placeholder="First Name:" required>
             <label id="labelFirstName" for="inputFirstName" class="row form-text visually-hidden">Enter your First Name</label>
           </div>
           <div class="col-sm">
-            <input name="lastName" type="text" class="form-control row m-0" id="inputLastName" aria-describedby="labelLastName" placeholder="Last Name:">
+            <input name="lastName" type="text" class="form-control row m-0" id="inputLastName" aria-describedby="labelLastName" placeholder="Last Name:" required>
             <label id="labelLastName" for="inputLastName" class="row form-text visually-hidden">Enter your Last Name</label>
           </div>
         </div>
         <div class="row p-3 bottomBorder">
           <div class="col-sm">
             <h4 class="form-label row ps-2">Email address:</h4>
-            <input name="email" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="example@example.com">
+            <input name="email" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="example@example.com" required>
             <label id="emailHelp" for="inputEmail" class="form-label row visually-hidden">Enter your Email Address</label>
           </div>
         </div>
         <div class="row p-3 bottomBorder">
           <div class="col-sm" style="border-right: 0.125em dashed lightgrey">
+            <h4 class="form-label row ps-2">Pet's Name:</h4>
+            <input name="petName" type="text" class="form-control m-0" id="inputPetName" aria-describedby="petNameHelp" required>
+            <label id="petNameHelp" for="inputPetName" class="form-label row visually-hidden">Enter your pet's name</label>
+          </div>
+          <div class="col-sm" style="border-right: 0.125em dashed lightgrey">
+            <h4 class="form-label row ps-2">Type of Pet:</h4>
+            <select name="petType" id="petTypeSelector" aria-describedby="petTypeSelectorHelp" class="form-select m-0" required>
+              <option value="cat">Cat</option>
+              <option value="dog" selected>Dog</option>
+              <option value="bird">Bird</option>
+            </select>
+            <label for="petTypeSelector" id="petTypeSelectorHelp" class="form-label row visually-hidden">Select the type of pet you have</label>
+          </div>
+          <div class="col-sm" style="border-left: 0.125em dashed lightgrey">
+            <h4 class="form-label row ps-2">Pet's Age:</h4>
+            <input name="petAge" type="number" min="0" max="99" class="form-control m-0" id="inputPetAge" aria-describedby="petAgeHelp" required>
+            <label id="petAgeHelp" for="inputPetAge" class="form-label row visually-hidden">Enter your pet's age</label>
+          </div>
+        </div>
+        <div class="row p-3 bottomBorder">
+          <div class="col-sm" style="border-right: 0.125em dashed lightgrey">
             <h4 class="form-label row ps-2">Phone Number:</h4>
-            <input name="phone" type="tel" class="form-control m-0" id="inputPhone" aria-describedby="phoneHelp" placeholder="+# (###) ###-####">
+            <input name="phone" type="tel" class="form-control m-0" id="inputPhone" aria-describedby="phoneHelp" placeholder="+# (###) ###-####" required>
             <label id="phoneHelp" for="inputPhone" class="form-label row visually-hidden">Enter your Phone Number</label>
           </div>
           <div class="col-sm" style="border-right: 0.125em dashed lightgrey">
             <h4 class="form-label row ps-2">Timezone:</h4>
-            <select name="timezone" id="timezone-offset" aria-describedby="timezoneHelp" class="form-select m-0">
+            <select name="timezone" id="timezone-offset" aria-describedby="timezoneHelp" class="form-select m-0" required>
               <option value="-12:00">(GMT -12:00) Eniwetok, Kwajalein</option>
               <option value="-11:00">(GMT -11:00) Midway Island, Samoa</option>
               <option value="-10:00">(GMT -10:00) Hawaii</option>
@@ -137,15 +211,53 @@
             <label for="timezone-offset" id="timezoneHelp" class="form-label row visually-hidden">Select your Timezone</label>
           </div>
         </div>
+        <div class="row p-3">
+          <div class="form-text col-4">We will never share your personal information with anyone else!</div>
+          <button type="submit" class="btn btn-primary col" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Submit
+          </button>
+          <div class="col-4"></div>
+        </div>
       </form>
+
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Submitted</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Thank you! We will be reaching out within 48 hours.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="successPopup" class="modal fade bd-example-modal-sm successPopup z-1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <h3 class="modal-header">Success! One of our Pexperts will be reaching out to you!</h3>
+            <button type="button" class="btn btn-secondary modal-footer" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+
       <script>
         const params = new URLSearchParams(window.location.search);
 
         document.getElementById("inputFirstName").value = params.get("firstName") ?? "";
         document.getElementById("inputLastName").value = params.get("lastName") ?? "";
         document.getElementById("inputEmail").value = params.get("email") ?? "";
-        document.getElementById("inputPhone").value = params.get("phone") ?? "";
-        document.getElementById("timezone-offset").value = params.get("timezone") ?? "";
+        document.getElementById("inputPetName").value = params.get("petName") ?? "";
+        document.getElementById("petTypeSelector").value = params.get("petType") ?? "";
+        document.getElementById("inputPetAge").value = params.get("petAge") ?? "";
       </script>
     </div>
   </main>
