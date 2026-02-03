@@ -71,7 +71,6 @@
 
     <main class="accordion" id="accordionPanelsStayOpenExample">
         <div id="HomeText"
-             style="background-color: lightgrey"
              class="container-fluid">
             <div class="row pt-3">
                 <main class="col-md-8">
@@ -127,52 +126,61 @@
 
         </div>
 
-        <div id="ContactUsForm" style="border: 0.25em solid darkgrey; padding-top: 1rem;">
-            <form class="container" action="contactUsPage.html" method="get">
-                <h3 class="row fw-bold">Contact one of our "Pexperts"!</h3>
-                <div id="NameFormDiv" class="row p-3 bottomBorder">
-                    <h4 class="form-label row ps-4">Name:</h4>
-                    <div class="col-sm">
-                        <input name="firstName" type="text" class="form-control row m-0" id="inputFirstName" aria-describedby="labelFirstName" placeholder="First Name:">
-                        <label id="labelFirstName" for="inputFirstName" class="row form-text visually-hidden">Enter your First Name</label>
+        <div id="ContactUsForm" class="accordion-item ps-0 pe-0 pt-2 pb-2">
+            <form class="container mw-100 border-0" action="contactUsPage.html" method="get">
+                <h3 class="row fw-bold accordion-header p-0 m-0">
+                    <button class="accordion-button" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne"
+                            style="line-height: 1.2; font-size: 1.75rem; font-weight: bold">
+                        Contact one of our "Pexperts"!
+                    </button>
+                </h3>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne" data-bs-parent="#ContactUsForm">
+                    <div id="NameFormDiv" class="row p-3 bottomBorder">
+                        <h4 class="form-label row ps-4">Name:</h4>
+                        <div class="col-sm">
+                            <input name="firstName" type="text" class="form-control row m-0" id="inputFirstName" aria-describedby="labelFirstName" placeholder="First Name:">
+                            <label id="labelFirstName" for="inputFirstName" class="row form-text visually-hidden">Enter your First Name</label>
+                        </div>
+                        <div class="col-sm">
+                            <input name="lastName" type="text" class="form-control row m-0" id="inputLastName" aria-describedby="labelLastName" placeholder="Last Name:">
+                            <label id="labelLastName" for="inputLastName" class="row form-text visually-hidden">Enter your Last Name</label>
+                        </div>
                     </div>
-                    <div class="col-sm">
-                        <input name="lastName" type="text" class="form-control row m-0" id="inputLastName" aria-describedby="labelLastName" placeholder="Last Name:">
-                        <label id="labelLastName" for="inputLastName" class="row form-text visually-hidden">Enter your Last Name</label>
+                    <div class="row p-3 bottomBorder">
+                        <div class="col-sm">
+                            <h4 class="form-label row ps-2">Email address:</h4>
+                            <input name="email" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="example@example.com">
+                            <label id="emailHelp" for="inputEmail" class="form-label row visually-hidden">Enter your Email Address</label>
+                        </div>
                     </div>
-                </div>
-                <div class="row p-3 bottomBorder">
-                    <div class="col-sm">
-                        <h4 class="form-label row ps-2">Email address:</h4>
-                        <input name="email" type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="example@example.com">
-                        <label id="emailHelp" for="inputEmail" class="form-label row visually-hidden">Enter your Email Address</label>
+                    <div class="row p-3 bottomBorder">
+                        <div class="col-sm" style="border-right: 0.125em dashed lightgrey">
+                            <h4 class="form-label row ps-2">Pet's Name:</h4>
+                            <input name="petName" type="text" class="form-control m-0" id="inputPetName" aria-describedby="petNameHelp">
+                            <label id="petNameHelp" for="inputPetName" class="form-label row visually-hidden">Enter your pet's name</label>
+                        </div>
+                        <div class="col-sm" style="border-right: 0.125em dashed lightgrey; border-right: 0.125em dashed lightgrey">
+                            <h4 class="form-label row ps-2">Type of Pet:</h4>
+                            <select name="petType" id="petTypeSelector" aria-describedby="petTypeSelectorHelp" class="form-select m-0">
+                                <option value="cat">Cat</option>
+                                <option value="dog" selected>Dog</option>
+                                <option value="bird">Bird</option>
+                            </select>
+                            <label for="petTypeSelector" id="petTypeSelectorHelp" class="form-label row visually-hidden">Select the type of pet you have</label>
+                        </div>
+                        <div class="col-sm" style="border-left: 0.125em dashed lightgrey">
+                            <h4 class="form-label row ps-2">Pet's Age:</h4>
+                            <input name="petAge" type="number" min="0" max="99" class="form-control m-0" id="inputPetAge" aria-describedby="petAgeHelp">
+                            <label id="petAgeHelp" for="inputPetAge" class="form-label row visually-hidden">Enter your pet's age</label>
+                        </div>
                     </div>
-                </div>
-                <div class="row p-3 bottomBorder">
-                    <div class="col-sm" style="border-right: 0.125em dashed lightgrey">
-                        <h4 class="form-label row ps-2">Pet's Name:</h4>
-                        <input name="petName" type="text" class="form-control m-0" id="inputPetName" aria-describedby="petNameHelp">
-                        <label id="petNameHelp" for="inputPetName" class="form-label row visually-hidden">Enter your pet's name</label>
+                    <div class="row p-3">
+                        <div class="form-text col-4">We will never share your personal information with anyone else!</div>
+                        <button type="submit" class="btn btn-primary col">Submit</button>
+                        <div class="col-4"></div>
                     </div>
-                    <div class="col-sm" style="border-right: 0.125em dashed lightgrey; border-right: 0.125em dashed lightgrey">
-                        <h4 class="form-label row ps-2">Type of Pet:</h4>
-                        <select name="petType" id="petTypeSelector" aria-describedby="petTypeSelectorHelp" class="form-select m-0">
-                            <option value="cat">Cat</option>
-                            <option value="dog" selected>Dog</option>
-                            <option value="bird">Bird</option>
-                        </select>
-                        <label for="petTypeSelector" id="petTypeSelectorHelp" class="form-label row visually-hidden">Select the type of pet you have</label>
-                    </div>
-                    <div class="col-sm" style="border-left: 0.125em dashed lightgrey">
-                        <h4 class="form-label row ps-2">Pet's Age:</h4>
-                        <input name="petAge" type="number" min="0" max="99" class="form-control m-0" id="inputPetAge" aria-describedby="petAgeHelp">
-                        <label id="petAgeHelp" for="inputPetAge" class="form-label row visually-hidden">Enter your pet's age</label>
-                    </div>
-                </div>
-                <div class="row p-3">
-                    <div class="form-text col-4">We will never share your personal information with anyone else!</div>
-                    <button type="submit" class="btn btn-primary col">Submit</button>
-                    <div class="col-4"></div>
                 </div>
             </form>
         </div>
@@ -235,7 +243,7 @@
 
     <footer class="w-100 mw-100 pt-2 pb-1 mt-auto"
             style="background-color: #003B6D;">
-        <div class="container p0 m-0">
+        <div class="container p0 m-0  w-100 mw-100">
             <ul class="nav justify-content-center border-bottom p-2 m-0">
                 <li class="nav-item">
                     <a href="index.html" class="nav-link px-2 footerNav">

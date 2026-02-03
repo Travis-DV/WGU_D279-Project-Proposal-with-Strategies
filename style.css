@@ -96,7 +96,8 @@ div > form > .bottomBorder {
         padding: 0;
     }
     .birdHaloImgDiv {
-        max-height: 75vh;
+        flex-grow: 1;
+        overflow: hidden;
         margin: 0;
         padding: 0;
     }
