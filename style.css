@@ -101,6 +101,12 @@
         margin: 0;
         padding: 0;
     }
+    .borderLeft {
+        border-left: 0.125em dashed lightgrey
+    }
+    .borderRight {
+        border-right: 0.125em dashed lightgrey;
+    }
 }
 
 #successPopup {
