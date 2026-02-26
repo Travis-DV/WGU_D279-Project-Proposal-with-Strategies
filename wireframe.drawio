@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.4" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.4" pages="4">
   <diagram name="Home" id="sSsf11hQgdGfdcDkjDWA">
     <mxGraphModel dx="807" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
         <mxCell id="UWuOojQ_DzpMC12FTxxz-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Footer" vertex="1">
           <mxGeometry height="80" width="500" x="230" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="UWuOojQ_DzpMC12FTxxz-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=light-dark(#333333,#FFFFFF);strokeColor=#666666;" value="Info #: Accordion title. Always Visble" vertex="1">
+        <mxCell id="UWuOojQ_DzpMC12FTxxz-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=light-dark(#333333,#FFFFFF);strokeColor=#666666;" value="Info #: Accordion title. Always Viable" vertex="1">
           <mxGeometry height="50" width="500" x="230" y="120" as="geometry" />
         </mxCell>
         <mxCell id="UWuOojQ_DzpMC12FTxxz-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Info #. Accordion Content. Visible after user clicks title" vertex="1">
@@ -83,11 +83,40 @@
         <mxCell id="mkEyl-0mIp6841YyB3Z9-3" edge="1" parent="1" source="mkEyl-0mIp6841YyB3Z9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="mkEyl-0mIp6841YyB3Z9-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mkEyl-0mIp6841YyB3Z9-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Cats/Dogs&lt;/div&gt;" vertex="1">
+        <mxCell id="mkEyl-0mIp6841YyB3Z9-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Birds" vertex="1">
           <mxGeometry height="30" width="60" x="670" y="350" as="geometry" />
         </mxCell>
         <mxCell id="mkEyl-0mIp6841YyB3Z9-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Footer" vertex="1">
           <mxGeometry height="80" width="500" x="450" y="630" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1dpTGlTqC7N81nWkFVnQ" name="Contact Us">
+    <mxGraphModel dx="807" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x4yo3mA_903Huv6ty0QT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Nav Bar" vertex="1">
+          <mxGeometry height="70" width="500" x="175" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="x4yo3mA_903Huv6ty0QT-3" edge="1" parent="1" source="x4yo3mA_903Huv6ty0QT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="x4yo3mA_903Huv6ty0QT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4yo3mA_903Huv6ty0QT-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Contact Us" vertex="1">
+          <mxGeometry height="30" width="75" x="388" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="x4yo3mA_903Huv6ty0QT-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Footer" vertex="1">
+          <mxGeometry height="80" width="500" x="175" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="x4yo3mA_903Huv6ty0QT-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=light-dark(#333333,#FFFFFF);strokeColor=#666666;" value="Info #: Accordion title. Always Viable" vertex="1">
+          <mxGeometry height="50" width="500" x="175" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="x4yo3mA_903Huv6ty0QT-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Info #. Accordion Content. Visible after user clicks title" vertex="1">
+          <mxGeometry height="170" width="500" x="175" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3EjBlmltcvaIwrk3vKbD-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#666666,transparent);fontColor=light-dark(#000000,#000000);" value="Contact Us all questions" vertex="1">
+          <mxGeometry height="200" width="500" x="175" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
