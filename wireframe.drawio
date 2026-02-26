@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.4">
   <diagram name="Page-1" id="sSsf11hQgdGfdcDkjDWA">
-    <mxGraphModel dx="807" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="807" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Nav Bar" vertex="1">
+          <mxGeometry height="70" width="500" x="230" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#666666,transparent);fontColor=light-dark(#000000,#000000);" value="Main Content" vertex="1">
+          <mxGeometry height="170" width="370" x="230" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#666666,transparent);fontColor=light-dark(#000000,#000000);" value="Useful links" vertex="1">
+          <mxGeometry height="170" width="130" x="600" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#666666,transparent);fontColor=light-dark(#000000,#000000);" value="Contact Us Pt.1" vertex="1">
+          <mxGeometry height="200" width="500" x="230" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-20" edge="1" parent="1" source="yaKbuMRU-SbGhVjD_kS0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="yaKbuMRU-SbGhVjD_kS0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Home&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="160" width="500" x="230" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Card 1" vertex="1">
+          <mxGeometry height="140" width="140" x="250" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Card 2" vertex="1">
+          <mxGeometry height="140" width="140" x="410" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Card 3" vertex="1">
+          <mxGeometry height="140" width="140" x="570" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Footer" vertex="1">
+          <mxGeometry height="80" width="500" x="230" y="520" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
