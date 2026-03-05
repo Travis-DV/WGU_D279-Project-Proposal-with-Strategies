@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.4" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.5.4" pages="4">
   <diagram name="Home" id="sSsf11hQgdGfdcDkjDWA">
-    <mxGraphModel dx="807" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="807" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yaKbuMRU-SbGhVjD_kS0-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Nav Bar" vertex="1">
+        <mxCell id="yaKbuMRU-SbGhVjD_kS0-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=none;" value="Nav Bar" vertex="1">
           <mxGeometry height="70" width="500" x="230" y="-80" as="geometry" />
         </mxCell>
         <mxCell id="yaKbuMRU-SbGhVjD_kS0-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#666666,transparent);fontColor=light-dark(#000000,#000000);" value="Main Content" vertex="1">
@@ -37,15 +37,18 @@
         <mxCell id="yaKbuMRU-SbGhVjD_kS0-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Footer" vertex="1">
           <mxGeometry height="80" width="500" x="230" y="520" as="geometry" />
         </mxCell>
+        <mxCell id="bsVVLtpMLZaIE3W3MuPo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" value="Logo" vertex="1">
+          <mxGeometry height="70" width="90" x="230" y="-80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="fWOp15L53bVtvE0AXXfH" name="Cats&amp;Dogs">
-    <mxGraphModel dx="807" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="807" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UWuOojQ_DzpMC12FTxxz-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Nav Bar" vertex="1">
+        <mxCell id="UWuOojQ_DzpMC12FTxxz-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=none;" value="Nav Bar" vertex="1">
           <mxGeometry height="70" width="500" x="230" y="-80" as="geometry" />
         </mxCell>
         <mxCell id="UWuOojQ_DzpMC12FTxxz-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#666666,transparent);fontColor=light-dark(#000000,#000000);" value="Basic Info" vertex="1">
@@ -65,6 +68,9 @@
         </mxCell>
         <mxCell id="UWuOojQ_DzpMC12FTxxz-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Info #. Accordion Content. Visible after user clicks title" vertex="1">
           <mxGeometry height="170" width="500" x="230" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IYG47075cFdYt440Haz5-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" value="Logo" vertex="1">
+          <mxGeometry height="70" width="90" x="230" y="-80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
